@@ -1,0 +1,81 @@
+/* Estilo Geral */
+body {
+    
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff5f8;
+    color: #333;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #eb8392;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* About Us Section */
+.about-us {
+    background: #ffe4e1;
+    padding: 40px 20px;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    color: #d14770;
+}
+
+.about-us p {font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Gallery Section */
+.gallery {
+    background: #fff5f8;
+    padding: 40px 20px;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #d14770;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background: #f553b7;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
